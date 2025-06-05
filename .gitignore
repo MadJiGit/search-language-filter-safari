@@ -1,0 +1,40 @@
+# macOS system files
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+
+# Project-specific user settings
+*.xcsettings
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+
+# Safari/WebExtensions build artifacts
+*.xcarchive
+*.appex
+*.app
+*.ipa
+*.dSYM
+*.log
+
+# Node/Web resources if used
+node_modules/
+dist/
+.cache/
+
+# Optional - ignore icons if generated dynamically
+# Resources/icons/*.png
+
+# Local env/testing
+.env
+.vscode/
+*.local

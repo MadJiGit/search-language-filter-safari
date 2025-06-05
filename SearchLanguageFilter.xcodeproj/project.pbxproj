@@ -11,6 +11,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		049E88472DF1E44A0056BFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A9044E2DF18CE400C769FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A904872DF18CE500C769FD;
+			remoteInfo = "SearchLanguageFilter Extension";
+		};
 		04A904732DF18CE500C769FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04A9044E2DF18CE400C769FD /* Project object */;
@@ -86,10 +93,6 @@
 			exceptions = (
 				04A904A22DF18CE500C769FD /* Exceptions for "SearchLanguageFilter Extension" folder in "SearchLanguageFilter Extension" target */,
 			);
-			explicitFolders = (
-				Resources/_locales,
-				Resources/images,
-			);
 			path = "SearchLanguageFilter Extension";
 			sourceTree = "<group>";
 		};
@@ -127,6 +130,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049E88462DF1E44A0056BFF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		04A9044D2DF18CE400C769FD = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 				04A904752DF18CE500C769FD /* SearchLanguageFilterTests */,
 				04A9047F2DF18CE500C769FD /* SearchLanguageFilterUITests */,
 				04A9048C2DF18CE500C769FD /* SearchLanguageFilter Extension */,
+				049E88462DF1E44A0056BFF8 /* Frameworks */,
 				04A904572DF18CE400C769FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,6 +176,7 @@
 			);
 			dependencies = (
 				04A9048B2DF18CE500C769FD /* PBXTargetDependency */,
+				049E88482DF1E44A0056BFF8 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				04A904582DF18CE400C769FD /* SearchLanguageFilter */,
@@ -355,6 +367,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		049E88482DF1E44A0056BFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A904872DF18CE500C769FD /* SearchLanguageFilter Extension */;
+			targetProxy = 049E88472DF1E44A0056BFF8 /* PBXContainerItemProxy */;
+		};
 		04A904742DF18CE500C769FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04A904552DF18CE400C769FD /* SearchLanguageFilter */;
@@ -377,6 +394,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "SearchLanguageFilter Extension/SearchLanguageFilter_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EZZDW8SBPA;
@@ -390,7 +409,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -408,6 +427,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "SearchLanguageFilter Extension/SearchLanguageFilter_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EZZDW8SBPA;
@@ -421,7 +442,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -489,7 +510,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -547,7 +568,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -561,6 +582,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SearchLanguageFilter/SearchLanguageFilter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -597,6 +620,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SearchLanguageFilter/SearchLanguageFilter.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
