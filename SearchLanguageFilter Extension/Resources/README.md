@@ -28,10 +28,10 @@ To improve the quality and relevance of search results, the extension automatica
 - ✅ Simple ON/OFF toggle
 - ✅ Add/remove custom filters
 - ✅ Local storage only (no data collected or shared)
-- ✅ Works in Chrome, Edge, Firefox*
+- ✅ Works in Chrome, Edge, Firefox*, and Safari**
 
-> *Note: Firefox requires temporary extension loading via `about:debugging`*
-
+> *Note: Firefox requires temporary extension loading via `about:debugging`*  
+> **Note: Safari support requires macOS 13+ and enabling the extension from Safari → Preferences → Extensions.
 ---
 
 ## 🛠️ How to Use the Custom Blacklist
