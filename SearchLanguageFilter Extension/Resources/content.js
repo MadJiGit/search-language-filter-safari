@@ -3,18 +3,7 @@
     const isEnabled = data.filterEnabled ?? true;
     if (!isEnabled) return;
 
-    const rawUserFilters = data.customBlacklist ?? [];
-
-    const userFilters = rawUserFilters.map(f => {
-      const trimmed = f.trim();
-      if (trimmed.startsWith("-site:") || trimmed.startsWith("-lang:")) {
-        return trimmed;
-      } else {
-        return `-site:${trimmed}`;
-      }
-    });
-
-    const defaultFilters = [
+    const initialDefaults = [
       '-lang:ru',
       '-site:ru',
       '-site:*.ru',
@@ -31,7 +20,14 @@
       '-site:*.wikipedia.org/*lang=ru*'
     ];
 
-    const blacklistTerms = [...defaultFilters, ...userFilters];
+    // If no custom list is set, initialize with defaults
+    if (!Array.isArray(data.customBlacklist)) {
+      chrome.storage.local.set({ customBlacklist: initialDefaults });
+      data.customBlacklist = initialDefaults;
+    }
+
+    const blacklistTerms = data.customBlacklist;
+
     const engine = window.location.hostname;
 
     function alreadyFiltered(query) {
@@ -58,4 +54,10 @@
       updateQueryParam("q");
     }
   });
+ // Listen for changes in filterEnabled or customBlacklist and reload the page if changed
+ chrome.storage.onChanged.addListener((changes, areaName) => {
+   if (areaName === 'local' && (changes.filterEnabled || changes.customBlacklist)) {
+     window.location.reload();
+   }
+ });
 })();

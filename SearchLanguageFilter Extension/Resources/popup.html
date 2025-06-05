@@ -50,7 +50,22 @@
     }
       
     input, button {
-        box-sizing: border-box;
+      box-sizing: border-box;
+      font-size: 10px;
+    }
+      
+    #customList {
+      max-height: 120px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      margin-top: 10px;
+      border-top: 1px solid #ccc;
+      padding-top: 8px;
+      font-size: 10px;
+    }
+
+    #customList div {
+      margin-bottom: 4px;
     }
 </style>
 </head>
@@ -63,7 +78,7 @@
   <label for="customInput" style="font-size:10px;">Add custom filter:</label><br>
   <input id="customInput" type="text" placeholder="-site:example.com" style="width: 100px; font-size: 10px; margin-top: 4px;"><br>
   <button id="addBtn" class="add" style="margin-top: 6px; font-size: 10px;">+ Add</button>
-  <div id="customList" style="margin-top: 10px; font-size: 10px;"></div>
+  <div id="customList"></div>
 </div>
 </body>
 </html>

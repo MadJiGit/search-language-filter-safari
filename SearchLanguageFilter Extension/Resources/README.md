@@ -38,6 +38,8 @@ To improve the quality and relevance of search results, the extension automatica
 - ✅ Works in Chrome, Edge, Firefox*, and Safari**
 - ✅ Add your own domain or language filters to customize results
 
+ℹ️ By default, the extension loads a set of pre-defined filters (mostly Russian-language sites), which you can fully customize or remove.
+
 > *Note: Firefox requires temporary extension loading via `about:debugging`*  
 > **Note: Safari support requires macOS 13+ and enabling the extension from Safari → Preferences → Extensions.
 ---
