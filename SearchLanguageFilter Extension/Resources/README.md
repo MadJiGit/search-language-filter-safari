@@ -4,6 +4,10 @@
 
 You can also add your own filters for any domain or language you wish to block.
 
+
+👉 **[Install on Chrome](https://chromewebstore.google.com/detail/search-language-filter/jhaaififdgohacmbigmellnhiihiidee)** 
+👉 **[Install on Firefox](https://addons.mozilla.org/en-US/firefox/addon/search-language-filter/)**
+
 ---
 
 ## 🧭 Why This Extension Was Created
