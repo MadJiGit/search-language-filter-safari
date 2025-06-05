@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A904892DF18CE500C769FD /* SearchLanguageFilter Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04A904882DF18CE500C769FD /* SearchLanguageFilter Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A904732DF18CE500C769FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A9044E2DF18CE400C769FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A904552DF18CE400C769FD;
+			remoteInfo = SearchLanguageFilter;
+		};
+		04A9047D2DF18CE500C769FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A9044E2DF18CE400C769FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A904552DF18CE400C769FD;
+			remoteInfo = SearchLanguageFilter;
+		};
+		04A9048A2DF18CE500C769FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A9044E2DF18CE400C769FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A904872DF18CE500C769FD;
+			remoteInfo = "SearchLanguageFilter Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A904A82DF18CE500C769FD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04A904892DF18CE500C769FD /* SearchLanguageFilter Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A904562DF18CE400C769FD /* SearchLanguageFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchLanguageFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A904722DF18CE500C769FD /* SearchLanguageFilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchLanguageFilterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A9047C2DF18CE500C769FD /* SearchLanguageFilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchLanguageFilterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A904882DF18CE500C769FD /* SearchLanguageFilter Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SearchLanguageFilter Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		04A904A22DF18CE500C769FD /* Exceptions for "SearchLanguageFilter Extension" folder in "SearchLanguageFilter Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 04A904872DF18CE500C769FD /* SearchLanguageFilter Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		04A904582DF18CE400C769FD /* SearchLanguageFilter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SearchLanguageFilter;
+			sourceTree = "<group>";
+		};
+		04A904752DF18CE500C769FD /* SearchLanguageFilterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SearchLanguageFilterTests;
+			sourceTree = "<group>";
+		};
+		04A9047F2DF18CE500C769FD /* SearchLanguageFilterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SearchLanguageFilterUITests;
+			sourceTree = "<group>";
+		};
+		04A9048C2DF18CE500C769FD /* SearchLanguageFilter Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				04A904A22DF18CE500C769FD /* Exceptions for "SearchLanguageFilter Extension" folder in "SearchLanguageFilter Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "SearchLanguageFilter Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A904532DF18CE400C769FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9046F2DF18CE500C769FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A904792DF18CE500C769FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A904852DF18CE500C769FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A9044D2DF18CE400C769FD = {
+			isa = PBXGroup;
+			children = (
+				04A904582DF18CE400C769FD /* SearchLanguageFilter */,
+				04A904752DF18CE500C769FD /* SearchLanguageFilterTests */,
+				04A9047F2DF18CE500C769FD /* SearchLanguageFilterUITests */,
+				04A9048C2DF18CE500C769FD /* SearchLanguageFilter Extension */,
+				04A904572DF18CE400C769FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A904572DF18CE400C769FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A904562DF18CE400C769FD /* SearchLanguageFilter.app */,
+				04A904722DF18CE500C769FD /* SearchLanguageFilterTests.xctest */,
+				04A9047C2DF18CE500C769FD /* SearchLanguageFilterUITests.xctest */,
+				04A904882DF18CE500C769FD /* SearchLanguageFilter Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A904552DF18CE400C769FD /* SearchLanguageFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A904A92DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilter" */;
+			buildPhases = (
+				04A904522DF18CE400C769FD /* Sources */,
+				04A904532DF18CE400C769FD /* Frameworks */,
+				04A904542DF18CE400C769FD /* Resources */,
+				04A904A82DF18CE500C769FD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A9048B2DF18CE500C769FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04A904582DF18CE400C769FD /* SearchLanguageFilter */,
+			);
+			name = SearchLanguageFilter;
+			packageProductDependencies = (
+			);
+			productName = SearchLanguageFilter;
+			productReference = 04A904562DF18CE400C769FD /* SearchLanguageFilter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A904712DF18CE500C769FD /* SearchLanguageFilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A904AC2DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilterTests" */;
+			buildPhases = (
+				04A9046E2DF18CE500C769FD /* Sources */,
+				04A9046F2DF18CE500C769FD /* Frameworks */,
+				04A904702DF18CE500C769FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A904742DF18CE500C769FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04A904752DF18CE500C769FD /* SearchLanguageFilterTests */,
+			);
+			name = SearchLanguageFilterTests;
+			packageProductDependencies = (
+			);
+			productName = SearchLanguageFilterTests;
+			productReference = 04A904722DF18CE500C769FD /* SearchLanguageFilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A9047B2DF18CE500C769FD /* SearchLanguageFilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A904AF2DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilterUITests" */;
+			buildPhases = (
+				04A904782DF18CE500C769FD /* Sources */,
+				04A904792DF18CE500C769FD /* Frameworks */,
+				04A9047A2DF18CE500C769FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A9047E2DF18CE500C769FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				04A9047F2DF18CE500C769FD /* SearchLanguageFilterUITests */,
+			);
+			name = SearchLanguageFilterUITests;
+			packageProductDependencies = (
+			);
+			productName = SearchLanguageFilterUITests;
+			productReference = 04A9047C2DF18CE500C769FD /* SearchLanguageFilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		04A904872DF18CE500C769FD /* SearchLanguageFilter Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A904A32DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilter Extension" */;
+			buildPhases = (
+				04A904842DF18CE500C769FD /* Sources */,
+				04A904852DF18CE500C769FD /* Frameworks */,
+				04A904862DF18CE500C769FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				04A9048C2DF18CE500C769FD /* SearchLanguageFilter Extension */,
+			);
+			name = "SearchLanguageFilter Extension";
+			packageProductDependencies = (
+			);
+			productName = "SearchLanguageFilter Extension";
+			productReference = 04A904882DF18CE500C769FD /* SearchLanguageFilter Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A9044E2DF18CE400C769FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					04A904552DF18CE400C769FD = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					04A904712DF18CE500C769FD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 04A904552DF18CE400C769FD;
+					};
+					04A9047B2DF18CE500C769FD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 04A904552DF18CE400C769FD;
+					};
+					04A904872DF18CE500C769FD = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 04A904512DF18CE400C769FD /* Build configuration list for PBXProject "SearchLanguageFilter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A9044D2DF18CE400C769FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 04A904572DF18CE400C769FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A904552DF18CE400C769FD /* SearchLanguageFilter */,
+				04A904712DF18CE500C769FD /* SearchLanguageFilterTests */,
+				04A9047B2DF18CE500C769FD /* SearchLanguageFilterUITests */,
+				04A904872DF18CE500C769FD /* SearchLanguageFilter Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A904542DF18CE400C769FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A904702DF18CE500C769FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9047A2DF18CE500C769FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A904862DF18CE500C769FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A904522DF18CE400C769FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A9046E2DF18CE500C769FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A904782DF18CE500C769FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A904842DF18CE500C769FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A904742DF18CE500C769FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A904552DF18CE400C769FD /* SearchLanguageFilter */;
+			targetProxy = 04A904732DF18CE500C769FD /* PBXContainerItemProxy */;
+		};
+		04A9047E2DF18CE500C769FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A904552DF18CE400C769FD /* SearchLanguageFilter */;
+			targetProxy = 04A9047D2DF18CE500C769FD /* PBXContainerItemProxy */;
+		};
+		04A9048B2DF18CE500C769FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A904872DF18CE500C769FD /* SearchLanguageFilter Extension */;
+			targetProxy = 04A9048A2DF18CE500C769FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A904A42DF18CE500C769FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SearchLanguageFilter Extension/SearchLanguageFilter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SearchLanguageFilter Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SearchLanguageFilter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilter.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04A904A52DF18CE500C769FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "SearchLanguageFilter Extension/SearchLanguageFilter_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SearchLanguageFilter Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SearchLanguageFilter Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilter.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04A904A62DF18CE500C769FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A904A72DF18CE500C769FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04A904AA2DF18CE500C769FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SearchLanguageFilter/SearchLanguageFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SearchLanguageFilter;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04A904AB2DF18CE500C769FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SearchLanguageFilter/SearchLanguageFilter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SearchLanguageFilter;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04A904AD2DF18CE500C769FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchLanguageFilter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SearchLanguageFilter";
+			};
+			name = Debug;
+		};
+		04A904AE2DF18CE500C769FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchLanguageFilter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SearchLanguageFilter";
+			};
+			name = Release;
+		};
+		04A904B02DF18CE500C769FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SearchLanguageFilter;
+			};
+			name = Debug;
+		};
+		04A904B12DF18CE500C769FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EZZDW8SBPA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mcompany.SearchLanguageFilterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SearchLanguageFilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A904512DF18CE400C769FD /* Build configuration list for PBXProject "SearchLanguageFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A904A62DF18CE500C769FD /* Debug */,
+				04A904A72DF18CE500C769FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A904A32DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilter Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A904A42DF18CE500C769FD /* Debug */,
+				04A904A52DF18CE500C769FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A904A92DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A904AA2DF18CE500C769FD /* Debug */,
+				04A904AB2DF18CE500C769FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A904AC2DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A904AD2DF18CE500C769FD /* Debug */,
+				04A904AE2DF18CE500C769FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A904AF2DF18CE500C769FD /* Build configuration list for PBXNativeTarget "SearchLanguageFilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A904B02DF18CE500C769FD /* Debug */,
+				04A904B12DF18CE500C769FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A9044E2DF18CE400C769FD /* Project object */;
+}
