@@ -2,6 +2,8 @@
 
 **Search Language Filter** is a lightweight and privacy-friendly browser extension that helps you filter out unwanted search results — especially Russian-language or Russian-domain results — when using Google or Bing.
 
+You can also add your own filters for any domain or language you wish to block.
+
 ---
 
 ## 🧭 Why This Extension Was Created
@@ -29,6 +31,7 @@ To improve the quality and relevance of search results, the extension automatica
 - ✅ Add/remove custom filters
 - ✅ Local storage only (no data collected or shared)
 - ✅ Works in Chrome, Edge, Firefox*, and Safari**
+- ✅ Add your own domain or language filters to customize results
 
 > *Note: Firefox requires temporary extension loading via `about:debugging`*  
 > **Note: Safari support requires macOS 13+ and enabling the extension from Safari → Preferences → Extensions.
